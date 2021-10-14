@@ -140,6 +140,7 @@ typedef struct{
 	
 }myProc;
 
+
 //src를 소숫점 아래 rdx+1자리에서 반올림하는 함수
 long double round_double(long double src, int rdx);
 
@@ -166,3 +167,4 @@ void erase_proc(myProc *proc);
 
 // procList 내용 지우는 함수
 void erase_proc_list(void);
+
